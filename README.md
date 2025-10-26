@@ -72,13 +72,13 @@ Confusion matrices for both models are plotted side by side for better compariso
 ##  How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/ComparisonReportBetweenLogisticRegression-NeuralNetworks.git
-   cd ComparisonReportBetweenLogisticRegression-NeuralNetworks
+   git clone https://github.com/AneebaWaseem/LogisticRegression-and-NeuralNetworks
+   cd LogisticRegression-and-NeuralNetworks
    ```
 
 2. Open the Jupyter Notebook:
    ```bash
-   jupyter notebook ComparisonReportBetweenLogisticRegression&NeuralNetworks.ipynb
+   jupyter notebook ComparisonReport.ipynb
    ```
 
 3. Run all cells sequentially to reproduce results and visualizations.

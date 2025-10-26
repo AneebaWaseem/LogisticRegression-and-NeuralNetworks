@@ -38,7 +38,7 @@ For both sensors combined → **24 features per sample**.
 - `max_iter = 1000`  
 
 ### 2. Neural Network (MLPClassifier)
-- Hidden Layer: 1 layer with 50 neurons  
+- Hidden Layer: 2 layers with 64 neurons and 25 neurons  
 - `max_iter = 500`, `random_state = 42`
 
 ---
@@ -47,7 +47,7 @@ For both sensors combined → **24 features per sample**.
 | Model | Accuracy | F1 Score |
 |--------|-----------|----------|
 | Logistic Regression | **0.9444** | **0.9443** |
-| Neural Network (MLP) | *(See notebook for results — slightly higher/lower depending on dataset variation)* |
+| Neural Network (MLP) | **0.9667** | **0.9666** |
 
 Both models performed well, with **MLP Classifier** expected to slightly outperform Logistic Regression due to its ability to capture non-linear relationships in sensor data.
 
